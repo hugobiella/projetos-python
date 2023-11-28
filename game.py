@@ -12,6 +12,7 @@ BLACK = (0, 0, 0)
 
 PADDLE_WIDTH, PADDLE_HEIGHT = 20, 100
 
+
 class Paddle:
     COLOR = WHITE
 
@@ -29,7 +30,6 @@ def draw(window, paddles):
     window.fill(BLACK)
     for paddle in paddles:
         paddle.draw(window)
-        
     pygame.display.update()
 
 
