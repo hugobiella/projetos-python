@@ -40,7 +40,7 @@ def main():
     size, total = calculate(cont, size)
     size_pct = calculate_pct(cont, size, total)
     for i in range(cont):  # testing
-        print(i+1, f"{names[i]} {size[i]:.2f} {size_pct[i]:.2f}%")
+        print(i+1, f"{names[i]} {size[i]:.2f} MB {size_pct[i]:.2f}%")
 
 
 main()
